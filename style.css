@@ -632,4 +632,11 @@ section[id] {
     }
 }
 
+/*スマホはプレビューを非表示 */
+@media (max-width: 600px) {
+    .pdf-preview:has(.pdf-viewer) {
+        display: none;
+    }
+}
+
 
